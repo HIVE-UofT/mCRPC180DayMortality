@@ -19,10 +19,7 @@ Data Source: Developed using longitudinal clinical trial data from Open Data Sph
 Code Strucutre: The code contains two sections, the first shows the initial candidate models on the first trial and further down, the second shows the external validation on the GRU and the RSF models. All of the figures are generated in the code and readily available.
 
 ### Tutorial
-#### A) Reproduce the model evaluation and figures
-This path allows you to regenerate the performance metrics and calibration plots from the existing model outputs.
 
-Steps
 
 1. Set up the environment (see below).
 
@@ -30,16 +27,7 @@ Steps
 
 3. Navigate to the "Evaluation" and "External Validation" sections.
 
-4. Run the cells to generate AUC-ROC and calibration metrics.
-
-#### B) Train and validate from raw data
-This path reruns the longitudinal data processing and model training.
-
-This path requires:
-
-Access to the underlying clinical trial datasets used by the HIVE Lab.
-
-Pre-processing of visit-level covariates.
+4. Run the cells to generate the performance of all the candidate models and all the corresponding plots.
 
 Environment setup
 Python venv
