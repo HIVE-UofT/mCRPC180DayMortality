@@ -1,5 +1,5 @@
 # mCRPC 180-Day Mortality Early Warning Model
-This repository contains the code, and model architectures for the development and external validation of a visit-level early warning system for metastatic castration-resistant prostate cancer (mCRPC) mortality.
+This repository contains the code, and model architectures for the development and external validation of a visit-level early warning system for metastatic castration-resistant prostate cancer (mCRPC) mortality (https://doi.org/10.48550/arXiv.2601.20046).
 
 The project focuses on predicting 180-day survival using longitudinal clinical trial data, providing clinicians with a predictive tool to identify patients at high risk of mortality during routine visits.
 
